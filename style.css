@@ -1,0 +1,51 @@
+:root {
+    --font-family: 'Inter', sans-serif;
+}
+
+.temp-type {
+    font-family: var(--font-family);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(26, 145, 243);
+    background-image: linear-gradient(
+      to top left,
+      rgb(0 0 0 / 20%),
+      rgb(0 0 0 / 20%) 30%,
+      rgb(0 0 0 / 0%)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+  
+.temp-type:hover {
+    background-color: rgb(24, 125, 207)
+}
+  
+.temp-type:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
+
+.inline {
+    display: inline-block;
+}
+
+#temp-from-input {
+    font-family: var(--font-family);
+    font-size: calc(.6rem + .4vw);
+    box-sizing: border-box;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+.display {
+    font-size: 2rem;
+}

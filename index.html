@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <p>Enter a temperature</p>
+    <div class="temp-from">
+        <input type="number" class="inline" id="temp-from-input" placeholder="From..." />
+        <p class="inline" id="temp-symbol">°C, °F, K</p>
+    </div>
+    <div class="temp-types">
+        <input type="button" class="temp-type" id="temp-celsius" value="Celcius" />
+        <input type="button" class="temp-type" id="temp-fahrenheit" value="Fahrenheit" />
+        <input type="button" class="temp-type" id="temp-kelvin" value="Kelvin" />
+    </div>
+    <div class="temp-to">
+        <input type="number" class="inline" id="temp-from-input" placeholder="To..." disabled="true" />
+        <p class="inline" id="temp-symbol">°C, °F, K</p>
+    </div>
+    <div class="temp-types">
+        <input type="button" class="temp-type" id="temp-celsius" value="Celcius" />
+        <input type="button" class="temp-type" id="temp-fahrenheit" value="Fahrenheit" />
+        <input type="button" class="temp-type" id="temp-kelvin" value="Kelvin" />
+    </div>
+    <div class="display">
+        <p class="inline" id="temp-output">Output: </p>
+        <p class="inline"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
