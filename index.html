@@ -10,27 +10,27 @@
     <p>Enter a temperature</p>
     <div class="temp-from">
         <input type="number" class="inline" id="temp-from-input" placeholder="From..." />
-        <p class="inline" id="temp-symbol">°C, °F, K</p>
+        <p class="inline" id="temp-symbol"></p>
     </div>
     <div class="temp-types">
-        <input type="button" class="temp-type" id="temp-celsius" value="Celcius" />
-        <input type="button" class="temp-type" id="temp-fahrenheit" value="Fahrenheit" />
-        <input type="button" class="temp-type" id="temp-kelvin" value="Kelvin" />
+        <input type="button" class="temp-type" id="from-temp-celsius" value="Celcius" />
+        <input type="button" class="temp-type" id="from-temp-fahrenheit" value="Fahrenheit" />
+        <input type="button" class="temp-type" id="from-temp-kelvin" value="Kelvin" />
     </div>
     <div class="temp-to">
-        <input type="number" class="inline" id="temp-from-input" placeholder="To..." disabled="true" />
+        <input type="number" class="inline" id="temp-to-input" placeholder="To..." disabled="true" />
         <p class="inline" id="temp-symbol">°C, °F, K</p>
     </div>
     <div class="temp-types">
-        <input type="button" class="temp-type" id="temp-celsius" value="Celcius" />
-        <input type="button" class="temp-type" id="temp-fahrenheit" value="Fahrenheit" />
-        <input type="button" class="temp-type" id="temp-kelvin" value="Kelvin" />
+        <input type="button" class="temp-type" id="to-temp-celsius" value="Celcius" />
+        <input type="button" class="temp-type" id="to-temp-fahrenheit" value="Fahrenheit" />
+        <input type="button" class="temp-type" id="to-temp-kelvin" value="Kelvin" />
     </div>
     <div class="display">
-        <p class="inline" id="temp-output">Output: </p>
-        <p class="inline"></p>
+        <p class="inline">Output: </p>
+        <p class="inline" id="temp-output"></p>
     </div>
 
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
